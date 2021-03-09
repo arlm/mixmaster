@@ -24,6 +24,7 @@
 static char *largopt(char *p, char *opt, char *name, int *error);
 static void noarg(char *name, char p);
 static int check_get_pass(int force, int never_ask_for_passphrase);
+int mix_global_verbose;
 
 /** main *****************************************************************/
 

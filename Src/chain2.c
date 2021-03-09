@@ -17,6 +17,8 @@
 
 #define N(X) (isdigit(X) ? (X) - '0' : 0)
 
+extern int mix_global_verbose;
+
 int prepare_type2list(BUFFER *out)
 {
 	FILE *list;
